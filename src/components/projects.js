@@ -1,6 +1,8 @@
 import React from 'react'
 import JSONData from "../data/data.json"
 
+
+
 class Projects extends React.Component {
   constructor(props) {
     super(props);
