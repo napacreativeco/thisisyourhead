@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ContactForm from '../components/contactform'
+import ContactForm from '../components/contactForm'
 
 const Contact = () => (
   <Layout>
