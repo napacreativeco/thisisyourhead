@@ -46,14 +46,14 @@ class Projects extends React.Component {
                       }}>view larger</button>
                   </div>
 
-                  <div role="button" tabIndex={0} className="modal" style={{ display: this.state.display, flexDirection: 'column' }}>
-                    <p onClick={() => {
+                  <div className="modal" style={{ display: this.state.display, flexDirection: 'column' }}>
+                    <button onClick={() => {
                         this.setState({ display: 'none' })
                        }}
                        onKeyDown={() => {
                         this.setState({ display: 'none' })
                        }}
-                       style={{ color: '#eaeaea'}}>close_window</p>
+                       style={{ color: '#eaeaea'}}>close_window</button>
                     <img src={this.state.thumbnail} alt={data.title} />
                   </div>
                 </div>
