@@ -43,7 +43,7 @@ class Projects extends React.Component {
                       }}>view larger</button>
                   </div>
 
-                  <div className="modal" style={{ display: this.state.display, flexDirection: 'column', touchAction: 'none' }}>
+                  <div className="modal" style={{ display: this.state.display, flexDirection: 'column', touchAction: 'manipulation' }}>
                     <button onClick={() => {
                         this.setState({ display: 'none' })
                        }}
