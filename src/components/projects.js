@@ -40,17 +40,11 @@ class Projects extends React.Component {
                     <button className="link"
                       onClick={() => {
                         this.setState({ display: 'flex', thumbnail: data.image })
-                      }} 
-                      onKeyDown={() => {
-                        this.setState({ display: 'flex', thumbnail: data.image })
                       }}>view larger</button>
                   </div>
 
                   <div className="modal" style={{ display: this.state.display, flexDirection: 'column' }}>
                     <button onClick={() => {
-                        this.setState({ display: 'none' })
-                       }}
-                       onKeyDown={() => {
                         this.setState({ display: 'none' })
                        }}
                        style={{ color: '#eaeaea'}}>close_window</button>
