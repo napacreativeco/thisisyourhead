@@ -4,163 +4,217 @@
       "title": "Night Music",
       "description": "T-shirt design for my band Fearing, featuring a photograph from MokaLab",
       "type": "Handstyle, Graphic Design, Merchandise",
-      "image": "/night-music-shirt.jpg"
+      "image": "/night-music-shirt.jpg",
+      "imageSmall": "/night-music-shirt--sm.jpg",
+      "slug": "night-music"
     },
     {
       "title": "Shadow",
       "description": "A photograph and scan project for the Shadow ",
       "type": "Coverart, Photography, Graphic Design",
-      "image": "/shadow-retail.jpg"    
+      "image": "/shadow-retail.jpg",
+      "imageSmall": "/shadow-retail--sm.jpg",
+      "slug": "shadow-cover"    
     },
     {
       "title": "Script drafts",
       "description": "Some handstyle drafts for Funeral Party Records.",
       "type": "Handstyle, Logo drafts",
-      "image": "/funeral-party-scripts.jpg"
+      "image": "/funeral-party-scripts.jpg",
+      "imageSmall": "/funeral-party-scripts--sm.jpg",
+      "slug": "fp-scripts"
     },
     {
       "title": "Temple of Angels",
       "description": "Some fun with the scanner. Flier for a show with Temple of Angels.",
       "type": "Scanner, Flier, Graphic Design",
-      "image": "/temple-of-angels.jpg"
+      "image": "/temple-of-angels.jpg",
+      "imageSmall": "/temple-of-angels--sm.jpg",
+      "slug": "toa-flier"
     },
     {
       "title": "Fearing Script",
       "description": "A hand drawn script logo for Fearing",
       "type": "Handstyle, Logo",
-      "image": "/fearing-graff-script.jpg"
+      "image": "/fearing-graff-script.jpg",
+      "imageSmall": "/fearing-graff-script--sm.jpg",
+      "slug": "fearing-script"
     },
     {
       "title": "She Past Away",
       "description": "A scan project flier for a local She Past Away show",
       "type": "Flier, Scan, Graphic Design",
-      "image": "/she-past-away.jpg"
+      "image": "/she-past-away.jpg",
+      "imageSmall": "/she-past-away--sm.jpg",
+      "slug": "she-past-away"
     },
     {
       "title": "Creative Adult Logo",
       "description": "A crecent moon and the wiccan symbol for Air, with an additional crossbar, used here as CA for Creative Adult ",
       "type": "Logo, Graphic Design",
-      "image": "/creative-adult-logo.jpg"
+      "image": "/creative-adult-logo.jpg",
+      "imageSmall": "/creative-adult-logo--sm.jpg",
+      "slug": "ca-logo"
     },
     {
       "title": "Untitled",
       "description": "An unused piece",
       "type": "Handstyle, Graphic Design",
-      "image": "/bw-eyes.jpg"
+      "image": "/bw-eyes.jpg",
+      "imageSmall": "/bw-eyes--sm.jpg",
+      "slug": "untitled-2"
     },
     {
       "title": "Intimate",
       "description": "A shirt design for Fearing",
       "type": "Graphic Design",
-      "image": "/intimate-shirt.jpg"
+      "image": "/intimate-shirt.jpg",
+      "imageSmall": "/intimate-shirt--sm.jpg",
+      "slug": "intimate-shirt"
     },
     {
       "title": "Spotify Playlist",
       "description": "An unused piece",
       "type": "Handstyle, Graphic Design",
-      "image": "/fearing-playlist.jpg"
+      "image": "/fearing-playlist.jpg",
+      "imageSmall": "/fearing-playlist--sm.jpg",
+      "slug": "spotify-playlist"
     },
     {
       "title": "Collage",
       "description": "A collage made for a work project in 2019",
       "type": "Collage, Graphic Design",
-      "image": "/lifestyle-collage.jpg"
+      "image": "/lifestyle-collage.jpg",
+      "imageSmall": "/lifestyle-collage--sm.jpg",
+      "slug": "collage-2019"
     },
     {
       "title": "Deep End",
       "description": "Cover art and layout for a Creative Adult 7inch",
       "type": "Coverart, Graphic Design",
-      "image": "/ca-deep-end.jpg"
+      "image": "/ca-deep-end.jpg",
+      "imageSmall": "/ca-deep-end--sm.jpg",
+      "slug": "deep-end"
     },
     {
       "title": "Melted Flowers",
       "description": "A piece I enjoyed from 2018",
       "type": "Graphic Design",
-      "image": "/melted-flowers.jpg"
+      "image": "/melted-flowers.jpg",
+      "imageSmall": "/melted-flowers--sm.jpg",
+      "slug": "melted-flowers"
     },
     {
       "title": "Self Control",
       "description": "A piece I made for work around 2019",
       "type": "Graphic Design, Multimedia",
-      "image": "/spd-smiles.jpg"
+      "image": "/spd-smiles.jpg",
+      "imageSmall": "/spd-smiles--sm.jpg",
+      "slug": "self-control"
     },
     {
       "title": "Part Time Punks Sessions",
       "description": "A photograph taken at in a studio window in LA, used for Fearing's Part Time Punks Sessions cover",
       "type": "Coverart, Photography",
-      "image": "/ptp-cover.jpg"
+      "image": "/ptp-cover.jpg",
+      "imageSmall": "/ptp-cover--sm.jpg",
+      "slug": "ptp"
     },
     {
       "title": "Burning Man",
       "description": "A t-shirt design for Fearing",
       "type": "Graphic Design, Merchandise",
-      "image": "/burning-man-shirt.jpg"
+      "image": "/burning-man-shirt.jpg",
+      "imageSmall": "/burning-man-shirt--sm.jpg",
+      "slug": "burning-man"
     },
     {
       "title": "Jump",
       "description": "A collage created in 2019",
       "type": "Collage",
-      "image": "/suicide-collage.jpg"
+      "image": "/suicide-collage.jpg",
+      "imageSmall": "/suicide-collage--sm.jpg",
+      "slug": "jump"
     },
     {
       "title": "Choir Boy flier",
       "description": "An alternate layout for a Choir Boy flier",
       "type": "Flier, Handstyle",
-      "image": "/choir-boy-other.jpg"
+      "image": "/choir-boy-other.jpg",
+      "imageSmall": "/choir-boy-other--sm.jpg",
+      "slug": "choir-boy-flier"
     },
     {
       "title": "Bulls In The Yard Limited cover",
       "description": "A limited edition screen printed test press cover for Creative Adult's Bulls In The Yard",
       "type": "Coverart, Graphic Design",
-      "image": "/bulls-in-yard.jpg"    
+      "image": "/bulls-in-yard.jpg",
+      "imageSmall": "/bulls-in-yard--sm.jpg",
+      "slug": "bulls-in-yard"    
     },
     {
       "title": "Fucked And Bound flier",
       "description": "A flier for a show with Fucked and Bound",
       "type": "Coverart, Graphic Design",
-      "image": "/fearing-hotel-utah.jpg"    
+      "image": "/fearing-hotel-utah.jpg",
+      "imageSmall": "/fearing-hotel-utah--sm.jpg",
+      "slug": "fab-flier"    
     },
     {
       "title": "KASKET",
       "description": "Cover art for KASKET, a release by my techno project ISSET",
       "type": "Coverart, Graphic Design",
-      "image": "/isset-cover.jpg"    
+      "image": "/isset-cover.jpg",
+      "imageSmall": "/isset-cover--sm.jpg",
+      "slug": "kasket"   
     },
     {
       "title": "Temple of Angels flier",
       "description": "A flier for a run of shows with Temple of Angels",
       "type": "Flier, Graphic Design",
-      "image": "/toa-double-flier.jpg"    
+      "image": "/toa-double-flier.jpg",
+      "imageSmall": "/toa-double-flier--sm.jpg",
+      "slug": "toa-flier-2"  
     },
     {
       "title": "A Life of None",
       "description": "A that reads A Life of None",
       "type": "Handstyle, Graphic Design",
-      "image": "/alon-script.jpg"    
+      "image": "/alon-script.jpg",
+      "imageSmall": "/alon-script--sm.jpg",
+      "slug": "alon-script" 
     },
     {
       "title": "The Drain Project",
       "description": "A logo from a never-launched zine project I wanted to start",
       "type": "Logo, Graphic Design",
-      "image": "/drain-project.jpg"    
+      "image": "/drain-project.jpg",
+      "imageSmall": "/drain-project--sm.jpg",
+      "slug": "drain-proj-logo"
     },
     {
       "title": "Work collage",
       "description": "A collage made for a Cannabis company I worked for",
       "type": "Collage, Graphic Design",
-      "image": "/spd-collage.jpg"    
+      "image": "/spd-collage.jpg",
+      "imageSmall": "/spd-collage--sm.jpg",
+      "slug": "collage-work"
     },
     {
       "title": "Summer Shows",
       "description": "A scan project for a run of Fearing shows",
       "type": "Flier, Collage, Graphic Design",
-      "image": "/summer-shows-eyes.jpg"    
+      "image": "/summer-shows-eyes.jpg",
+      "imageSmall": "/summer-shows-eyes--sm.jpg",
+      "slug": "summer-shows"
     },
     {
       "title": "King Dude flier",
       "description": "A typography flier draft for a local King Dude show",
       "type": "Flier, Graphic Design",
-      "image": "/king-dude-type.jpg"    
+      "image": "/king-dude-type.jpg",
+      "imageSmall": "/king-dude-type--sm.jpg",
+      "slug": "king-dude-flier"   
     }
   ]
 }

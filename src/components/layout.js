@@ -5,7 +5,7 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import React, { useState, useEffect } from "react"
+import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
       <div>
         <main style={{ padding: '10px' }}>{children}</main>
 
-        <div className="back-to-top" onClick={backToTop}>back_to_top</div>
+        <div role="button" tabIndex={0} className="back-to-top" onClick={backToTop} onKeyDown={backToTop}>back_to_top</div>
         <footer style={{ padding: '10px' }}>
           © {new Date().getFullYear()}, Thanks a bunch
         </footer>

@@ -28,21 +28,32 @@ class Projects extends React.Component {
                 <div
                   className="cell"
                   style={{ 
-                  background: 'url(' + data.image + ')',
+                  background: 'url(' + data.imageSmall + ')',
                   backgroundSize: 'cover',
-                  backgroundPosition: 'center center' }}>
+                  backgroundPosition: 'center center' }}
+                  key={data.slug}>
 
                   <div className="cell-overlay">
                     <h3>{data.title}</h3>
                     <p className="tags">{data.type}</p>
                     <p className="description">{data.description}</p>
-                    <p className="link" onClick={() => {
-                      this.setState({ display: 'flex', thumbnail: data.image })
-                    }}>view larger</p>
+                    <button className="link"
+                      onClick={() => {
+                        this.setState({ display: 'flex', thumbnail: data.image })
+                      }} 
+                      onKeyDown={() => {
+                        this.setState({ display: 'flex', thumbnail: data.image })
+                      }}>view larger</button>
                   </div>
-                  <div className="modal" onClick={() => {
-                    this.setState({ display: 'none' })
-                  }} style={{ display: this.state.display }}>
+
+                  <div role="button" tabIndex={0} className="modal"
+                       onClick={() => {
+                        this.setState({ display: 'none' })
+                       }}
+                       onKeyDown={() => {
+                        this.setState({ display: 'none' })
+                       }}
+                       style={{ display: this.state.display }}>
                     <img src={this.state.thumbnail} alt={data.title} />
                   </div>
                 </div>
