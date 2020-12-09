@@ -47,7 +47,7 @@ class Projects extends React.Component {
                     <button onClick={() => {
                         this.setState({ display: 'none' })
                        }}
-                       style={{ color: '#eaeaea'}}>close_window</button>
+                       style={{ color: '#eaeaea', background: 'transparent', border: '0px', outline: '0px' }}>close_window</button>
                     <img src={this.state.thumbnail} alt={data.title} />
                   </div>
                 </div>
