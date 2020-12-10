@@ -2,14 +2,14 @@
   "projects": [
     {
       "title": "Night Music",
-      "description": "T-shirt design for my band Fearing, featuring a photograph from MokaLab",
+      "description": "T-shirt design for Fearing featuring a photograph from MokaLab",
       "type": "Handstyle, Graphic Design, Merchandise",
       "src": "/night-music-shirt.jpg",
       "slug": "night-music"
     },
     {
       "title": "Shadow",
-      "description": "A photograph and scan project for the Shadow ",
+      "description": "A photograph and scan project for the Fearing album, Shadow ",
       "type": "Coverart, Photography, Graphic Design",
       "src": "/shadow-retail.jpg",
       "slug": "shadow-cover"    
@@ -44,20 +44,20 @@
     },
     {
       "title": "Creative Adult Logo",
-      "description": "A crecent moon and the wiccan symbol for Air, with an additional crossbar, used here as CA for Creative Adult ",
+      "description": "Shapes for a Creative Adult logo",
       "type": "Logo, Graphic Design",
       "src": "/creative-adult-logo.jpg",
       "slug": "ca-logo"
     },
     {
       "title": "Untitled",
-      "description": "An unused piece",
+      "description": "Some unused scribbles",
       "type": "Handstyle, Graphic Design",
       "src": "/bw-eyes.jpg",
       "slug": "untitled-2"
     },
     {
-      "title": "Collage",
+      "title": "Untitled",
       "description": "A collage made for a work project in 2019",
       "type": "Collage, Graphic Design",
       "src": "/lifestyle-collage.jpg",
@@ -71,6 +71,13 @@
       "slug": "summer-shows"
     },
     {
+      "title": "Choir Boy flier",
+      "description": "A scanner project for a Choir Boy flier",
+      "type": "Flier, Handstyle, Scanner",
+      "src": "/choir-boy-flier-orange.jpg",
+      "slug": "choir-boy-flier-orange"
+    },
+    {
       "title": "Deep End",
       "description": "Cover art and layout for a Creative Adult 7inch",
       "type": "Coverart, Graphic Design",
@@ -78,14 +85,14 @@
       "slug": "deep-end"
     },
     {
-      "title": "Melted Flowers",
-      "description": "A piece I enjoyed from 2018",
+      "title": "Untitled",
+      "description": "An unused piece from 2018",
       "type": "Graphic Design",
       "src": "/melted-flowers.jpg",
       "slug": "melted-flowers"
     },
     {
-      "title": "Self Control",
+      "title": "Untitled",
       "description": "A piece I made for work around 2019",
       "type": "Graphic Design, Multimedia",
       "src": "/spd-smiles.jpg",
@@ -106,7 +113,7 @@
       "slug": "choir-boy-flier"
     },
     {
-      "title": "Bulls In The Yard Limited cover",
+      "title": "Bulls In The Yard",
       "description": "A limited edition screen printed test press cover for Creative Adult's Bulls In The Yard",
       "type": "Coverart, Graphic Design",
       "src": "/bulls-in-yard.jpg",
@@ -128,7 +135,7 @@
     },
     {
       "title": "A Life of None",
-      "description": "A that reads A Life of None",
+      "description": "A script that reads A Life of None",
       "type": "Handstyle, Graphic Design",
       "src": "/alon-script.jpg",
       "slug": "alon-script" 
