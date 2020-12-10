@@ -176,6 +176,7 @@ header .cart:hover::after {
 .project .cell-overlay .link {
   width: 100%;
   text-align: left;
+  padding: 0;
 }
 .projects .cell-overlay button {
   margin: 10px 20px 20px 0px;
@@ -186,7 +187,7 @@ header .cart:hover::after {
   background: transparent;
   outline: 0px;
   border: 0px;
-
+  padding: 0;
 }
 .projects .cell-overlay button:hover {
   padding-top: 5px;
