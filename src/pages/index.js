@@ -9,6 +9,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
+      <div class="preloader">THIS IS LOADING</div>
+       
       <p style={{ paddingLeft: '10px' }}>Multidisciplinary artist based in Napa, Calfornia</p>
 
       <Projects />

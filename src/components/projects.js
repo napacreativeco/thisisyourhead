@@ -3,6 +3,7 @@ import JSONData from "../data/data.json"
 
 
 
+
 class Projects extends React.Component {
   constructor(props) {
     super(props);
@@ -18,29 +19,41 @@ class Projects extends React.Component {
       thumbnail: ''
     });
   }
+
+  componentDidMount() {
+    const preLoader = document.querySelector(".preloader");
+
+    setTimeout(function() {
+      preLoader.style.display = "none"
+    }, 2000)
+
+  }
+
   render() {
 
     return (
+
       <div className="projects">
         <div className="row">
           {JSONData.projects.map((data, index) => {
             return (
-                <div
-                  className="cell"
-                  style={{ 
-                  background: 'url(' + data.imageSmall + ')',
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center center' }}
-                  key={data.slug}>
+              
+                <div className="cell" key={data.slug} 
+                     style={{ 
+                        background: 'url(' + data.src + ')',
+                        backgroundSize: 'cover',
+                        backgroundRepeat: 'no-repeat',
+                        backgroundPosition: 'center center',
+                        backgroundColor: '#222222'
+                     }}>
 
                   <div className="cell-overlay">
-                    <h3>{data.title}</h3>
-                    <p className="tags">{data.type}</p>
-                    <p className="description">{data.description}</p>
-                    <button className="link"
-                      onClick={() => {
-                        this.setState({ display: 'flex', thumbnail: data.image })
-                      }}>view larger</button>
+                    <div><h3>{data.title}</h3></div>
+                    <div><p className="tags">{data.type}</p></div>
+                    <div><p className="description">{data.description}</p></div>
+                    <div>
+                      <button className="link" onClick={() => { this.setState({ display: 'flex', thumbnail: data.src }) }}>view larger</button>
+                    </div>
                   </div>
 
                   <div className="modal" style={{ display: this.state.display, flexDirection: 'column', touchAction: 'none' }}>
@@ -55,6 +68,7 @@ class Projects extends React.Component {
           })}
         </div>
       </div>
+
     )
   }
 }
