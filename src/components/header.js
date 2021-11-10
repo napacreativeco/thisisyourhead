@@ -11,10 +11,10 @@ const Header = () => (
         <a href="mailto:thisisyourhead@gmail.com">CONTACT<br />FOR CUSTOM DESIGN</a>
       </div>
       <div className="cell shop" style={{ 'cursor': 'not-allowed' }}>
-        <Link to="/shop">SHOP ONLINE<br />COMING SOON</Link>
+        SHOP ONLINE<br />COMING SOON
       </div>
-      <div className="cell cart">
-        <Link to="/cart">CART<br />0 ITEMS</Link>
+      <div className="cell cart" style={{ 'cursor': 'not-allowed' }}>
+        CART<br />0 ITEMS
       </div>
     </div>
 

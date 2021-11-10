@@ -3,47 +3,47 @@ import JSONData from "../data/data.json"
 import styled from 'styled-components';
 
 const ProjectStyles = styled.section`
-.row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
     width: 100%;
-  }
-  .cell {
-    height: 400px;
-  }
+    max-width: 100%;
 
-  
-  @media screen and (max-width: 850px ) {
     .row {
-      grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        width: 100%;
     }
-  }
+    .cell {
+        height: 400px;
+    }
 
-  @media screen and (max-width: 600px ) {
-    .row {
-      grid-template-columns: 1fr 1fr;
+    
+    @media screen and (max-width: 850px ) {
+        .row {
+        grid-template-columns: 1fr 1fr 1fr;
+        }
     }
-  }
-  @media screen and (max-width: 500px ) {
-    .row {
-      grid-template-columns: 1fr;
+
+    @media screen and (max-width: 600px ) {
+        .row {
+        grid-template-columns: 1fr 1fr;
+        }
     }
-  }
+    @media screen and (max-width: 500px ) {
+        .row {
+        grid-template-columns: 1fr;
+        }
+    }
 `;
 
-class ProjectsNew extends React.Component {
-
-
-
-  render() {
+export default function ProjectsNew() {
 
     return (
 
-      <ProjectStyles className="projects">
+      <ProjectStyles>
 
         <div className="row">
-          {JSONData.projects.map((data, index) => {
+            
+          {JSONData.projects.map((data) => {
             return (
               
                 <div className="cell" key={data.slug} 
@@ -53,15 +53,14 @@ class ProjectsNew extends React.Component {
                         backgroundRepeat: 'no-repeat',
                         backgroundPosition: 'center center',
                         backgroundColor: '#eaeaea'}}
-                >
+                >&nbsp;
                 </div>
             )
           })}
         </div>
+
       </ProjectStyles>
 
     )
-  }
 }
 
-export default ProjectsNew
