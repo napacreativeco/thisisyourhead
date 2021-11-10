@@ -32,7 +32,7 @@ const ProjectStyles = styled.section`
   }
 `;
 
-class Projects extends React.Component {
+class ProjectsNew extends React.Component {
 
 
 
@@ -64,4 +64,4 @@ class Projects extends React.Component {
   }
 }
 
-export default Projects
+export default ProjectsNew
