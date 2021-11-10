@@ -8,15 +8,17 @@ const Header = () => (
         <Link to="/">THISISYOURHEAD<br />DESIGN WORK</Link>
       </div>
       <div className="cell contact">
-        <Link to="/contact">CONTACT<br />FOR CUSTOM DESIGN</Link>
+        <a href="mailto:thisisyourhead@gmail.com">CONTACT<br />FOR CUSTOM DESIGN</a>
       </div>
-      <div className="cell shop">
-        <Link to="/shop">SHOP ONLINE<br />SOFT GOODS AND MATERIALS</Link>
+      <div className="cell shop" style={{ 'cursor': 'not-allowed' }}>
+        <Link to="/shop">SHOP ONLINE<br />COMING SOON</Link>
       </div>
       <div className="cell cart">
         <Link to="/cart">CART<br />0 ITEMS</Link>
       </div>
     </div>
+
+    <p style={{ paddingLeft: '10px' }}>Multidisciplinary artist based in Napa, Calfornia</p>
   </header>
 )
 

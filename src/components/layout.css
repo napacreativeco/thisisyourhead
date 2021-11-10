@@ -10,7 +10,7 @@ body {
   padding: 0;
   background: #eaeaea;
 }
-body::after {
+/* body::after {
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1949.86 1235.81"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M54.92,1201.66q5-233.7,8.36-467.42t5.16-467.48q1-131.89,1.5-263.81a1.51,1.51,0,0,0-3-.4C55.07,37,49.27,73,45.32,109.08c-4.24,38.72-7.39,77.59-10.85,116.39-7,78.47-13.47,157-18.74,235.59C5.22,618-.45,775.38,4.62,932.62c2.85,88.71,9.2,177.3,19.86,265.42.18,1.55,2.52,2.2,2.94.4A771.65,771.65,0,0,0,47.14,993.21C44.42,923.7,29.28,856.53,16.37,788.44,9.68,753.16,4.1,717.58,2.64,681.65,1.21,646.39,3.43,611.1,6.9,576,14,504.37,23.79,433.42,26.11,361.36c2.62-81.52-.24-163.07-3.09-244.53a1.5,1.5,0,0,0-3,0c-2.56,141-5.11,282.09,2.85,422.92C26.76,608.46,33.62,676.85,43,745c9.56,69.21,20.62,138.29,26.3,208,6.3,77.37,5.52,155.57-11.61,231.58-.36,1.59,1.93,2.74,2.74,1.16C161,990,363.74,869.54,456,668.13c24.07-52.55,39-109,39.57-167a1.5,1.5,0,0,0-2.94-.4c-45,183-16.65,383.32-105.51,555.11-21.88,42.3-50.68,80.68-87,111.61l2.12,2.12c90.4-95.3,198.92-170.24,303.53-248.71,101-75.74,201-156.68,273.31-261.48,32.47-47.06,78.31-126.16,29.28-177.84a1.51,1.51,0,0,0-2.51.66c-48.47,203.83,30.57,419.85-45.53,619.49-18.49,48.51-46.41,93-84.91,128.09l2.36,1.82c55.2-85.48,132.45-153,203.76-224.41,67.4-67.55,132.59-141.94,161.74-234.66,20.94-66.59,21.16-138.65,1.63-205.57a1.52,1.52,0,0,0-2.9,0c-58.87,168.14-13.7,347.44,1.57,518.9,4.44,49.85,6.52,99.94,3.43,149.94l3-.4c-6.57-36.89,5.57-72.81,22.85-105.06,16.32-30.48,36.62-59,56.88-86.94,41.3-57,86.51-110.94,131.45-165,85.2-102.58,170.45-207.51,224.64-330.5,28.69-65.12,47.79-134.38,51.66-205.63a1.51,1.51,0,0,0-1.9-1.44C1539.32,376.25,1479.07,471,1455.9,567.19c-31.37,130.25-5.59,264.74-5.23,396.62.19,72.81-7.31,146.31-34.79,214.31-.55,1.36,1.6,2.62,2.51,1.46l166.36-212.73,83.18-106.37c24-30.63,50.5-60.54,69-95,16.74-31.16,27-68.7,6.68-100.67a1.51,1.51,0,0,0-2.79.76,3110.52,3110.52,0,0,1-12.69,455.88c-.16,1.57,2.06,1.91,2.79.76,59.74-94.14,171.22-148.55,209.08-257.72,9.73-28.06,12.77-57.68,6.83-86.88-.39-1.89-3.28-1.09-2.9.8,15,73.49-28.91,142.86-77.54,193.85-46.66,48.92-101.44,90.73-138.06,148.43l2.8.76a3110.52,3110.52,0,0,0,12.69-455.88l-2.8.75c20.7,32.55,8.53,70.8-9,101.84-19.54,34.63-46.56,65-71,96.24L1504.2,1065l-87.93,112.45,2.5,1.46c50.27-124.38,33.2-260.72,26.77-391-6.15-124.8-.54-258.86,80-361.32,16.75-21.3,36.37-40.46,58.69-55.88a233.17,233.17,0,0,1,34-19.55c3.73-1.74,7.52-3.36,11.34-4.89,4.33-1.73,4.3-2.31,4.38,2.69.12,7.64-1.2,15.62-2,23.2-7.08,63.58-26.44,125.33-52.93,183.39-54,118.39-136.37,220-218.92,319.38-41.7,50.21-83.64,100.28-122.56,152.71-19.63,26.45-38.86,53.41-56,81.53-16.14,26.41-30.58,55.15-35.15,86.08a127.11,127.11,0,0,0,.66,41c.32,1.75,2.85,1.2,3-.4,10.86-175.53-43.46-347.81-33.08-523.23,2.92-49.33,11.63-98.12,28-144.81H1142c18.16,62.2,19.19,128.83,2.07,191.4-12.89,47.14-35.75,90.84-63.93,130.58-57,80.39-133,144.73-201.41,214.85-37.94,38.87-74,79.78-103.55,125.49-1,1.48,1.13,2.93,2.35,1.82,67.44-61.47,100-149.51,113.17-238,15.41-103.73,3.81-208.31,1.5-312.5C890.72,614.9,893.29,548,908.74,483l-2.51.66c47.57,50.14,2.45,127.31-28.92,173-35.36,51.51-77.89,97.69-123.75,140-91.94,84.79-196.4,154.31-295,230.79-55.74,43.21-109.81,88.79-158.4,140a1.5,1.5,0,0,0,2.12,2.12C444.07,1048.93,453,847.94,468.9,676.61c5.47-58.83,12.51-117.6,26.65-175l-2.95-.4C491.48,609.89,439.71,709.09,375.49,794c-65.76,86.93-146.64,160.74-216.94,243.79-38.36,45.32-73.5,93.49-100.68,146.42l2.74,1.15c30.09-133.51,9.59-270.48-9.45-404-10-70.13-18.58-140.28-23.38-211C23,499.47,21,428.36,20.6,357.26c-.48-80.15,1-160.3,2.42-240.43H20c2.52,71.86,5,143.76,3.79,215.67-1.23,71.64-8.55,142.26-16.67,213.37-7.91,69.31-11,137.47-.09,206.64,11,69.92,29.5,138.42,35.2,209.15a768.81,768.81,0,0,1-17.72,236l2.95.39C8.69,1042.66,3.51,886,6.58,729.55,9.65,572.7,20.85,416.15,34.44,259.9q5.61-64.59,11.68-129.15c4.13-43.12,9.53-86.28,23.77-127.4l-3-.4q-.89,233.75-3.35,467.49T57,937.89q-2.31,131.89-5.11,263.77c-.05,1.93,2.95,1.93,3,0Z" transform="translate(0 -1.5)"/></g></g></svg>') center left;
   background-size: cover;
   content: "";
@@ -22,7 +22,7 @@ body::after {
   height: 120%;
   width: 120%;
   z-index: -1;
-}
+} */
 
 a {
   text-decoration: none;
@@ -96,143 +96,6 @@ header .cart:hover::after {
 }
 
 
-.project {
-  width: 100%;
-  padding: 10px;
-}
-.projects .row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.projects .cell {
-  width: calc(25% - 20px);
-  max-width: calc(25% - 20px);
-  height: 400px;
-  margin: 10px;
-  position: relative;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  border-radius: 12px;
-}
-
-.projects .cell-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background:#353a16;
-  opacity: 0;
-  transition: all 0.3s;
-  padding: 20px;
-  border-radius: 12px;
-}
-.projects .cell-overlay div {
-  width: 100%;
-}
-.projects .cell-overlay:hover {
-  opacity: 1;
-}
-.projects .cell-overlay h3 {
-  color: #eaeaea;
-  font-size: 34px;
-  padding: 0px 20px 0px 0px;
-  text-align: left;
-  line-height: 0.8;
-  font-weight: 500;
-  letter-spacing: -2px;
-  width: 100%;
-}
-.projects .cell-overlay h3,
-.projects .cell-overlay p {
-  margin: 0;
-}
-.projects .cell-overlay p.tags {
-  margin: 0px 0px 15px 0px;
-  padding: 0px 10px;
-  color: #666666;
-  font-size: 14px;
-  line-height: 1;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 50%;
-  text-align: right;
-}
-.projects .cell-overlay p.description {
-  text-align: left;
-  padding: 15px 30px 20px 0px;
-  letter-spacing: 0.5px;
-  color: #666666;
-  line-height: 1;
-}
-.project .cell-overlay .link {
-  width: 100%;
-  text-align: left;
-  padding: 0;
-}
-.projects .cell-overlay button {
-  margin: 10px 20px 20px 0px;
-  text-decoration: underline;
-  cursor: pointer;
-  color: #eaeaea;
-  transition: all 0.3s;
-  background: transparent;
-  outline: 0px;
-  border: 0px;
-  padding: 0;
-}
-.projects .cell-overlay button:hover {
-  padding-top: 5px;
-  letter-spacing: 1.2px;
-}
-.projects .modal {
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.05);
-}
-.projects .modal img {
-  max-height: 80%;
-}
-
-.contact-form {
-  margin-bottom: 100px;
-}
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  background: #353a16;
-  color: #eaeaea;
-}
-.contact-form textarea {
-  min-width: 100%;
-  max-width: 100%;
-  min-height: 100px;
-  margin-bottom: 15px;
-}
-.contact-form button {
-  padding: 10px 20px;
-  background: #353a16;
-  color: #eaeaea;
-  border: 0;
-  outline: 0;
-}
-
 
 .back-to-top {
   position: fixed;
@@ -243,24 +106,12 @@ header .cart:hover::after {
 }
 
 @media screen and (max-width: 1299px ) {
-  .projects .cell {
-    height: 350px;
-    width: calc(33.33% - 20px);
-    max-width: calc(33.33% - 20px);
-  }
+
 }
 
 @media screen and (max-width: 850px ) {
   header .contact {
     padding-left: 10px;
-  }
-  .projects .cell {
-    height: 350px;
-    width: calc(50% - 20px);
-    max-width: calc(50% - 20px);
-  }
-  .projects .modal img {
-    max-width: 90%;
   }
 }
 
@@ -277,28 +128,4 @@ header .cart:hover::after {
   header .shop:hover::after {
     width: 120px;
   }
-  .projects .cell {
-    height: 400px;
-    width: calc(100% - 20px);
-    max-width: calc(100% - 20px);
-    margin: 10px auto;
-  }
-}
-
-
-
-
-
-.preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: #fff;
-  z-index: 9999;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }

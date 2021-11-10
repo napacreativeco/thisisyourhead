@@ -1,11 +1,46 @@
 {
   "projects": [
     {
+      "title": "Catacombs Shirt",
+      "description": "Shirt design for the band Fearing",
+      "type": "Graphic Design, Merchandise",
+      "src": "/catacombs-shirt.jpg",
+      "slug": "catacombs"
+    },
+    {
+      "title": "Heavenworld",
+      "description": "Promotional flyer for the artist Heavenworld",
+      "type": "Graphic Design, Flyer",
+      "src": "/heavenworld.jpg",
+      "slug": "heavenworld"
+    },
+    {
+      "title": "Industry Standards",
+      "description": "Promotional flyer for a record label",
+      "type": "Graphic Design, Flyer",
+      "src": "/IS-promo.jpg",
+      "slug": "industry-standards"
+    },
+    {
+      "title": "Blacklight",
+      "description": "Flyer design for the artist Blacklight",
+      "type": "Graphic Design, Flyer",
+      "src": "/blacklight-flyer.jpg",
+      "slug": "blacklight"
+    },
+    {
       "title": "Night Music",
       "description": "T-shirt design for Fearing featuring a photograph from MokaLab",
       "type": "Handstyle, Graphic Design, Merchandise",
       "src": "/night-music-shirt.jpg",
       "slug": "night-music"
+    },
+    {
+      "title": "Fire Crowd",
+      "description": "Design for a mixtape cover",
+      "type": "Graphic Design, Mixtape",
+      "src": "/fire-crowd.png",
+      "slug": "fire-crowd"
     },
     {
       "title": "Shadow",
@@ -48,6 +83,13 @@
       "type": "Logo, Graphic Design",
       "src": "/creative-adult-logo.jpg",
       "slug": "ca-logo"
+    },
+    {
+      "title": "Tamaryn",
+      "description": "Flier for a Tamaryn show",
+      "type": "Graphic Design, Flyer",
+      "src": "/tamaryn.jpg",
+      "slug": "tamaryn"
     },
     {
       "title": "Untitled",
