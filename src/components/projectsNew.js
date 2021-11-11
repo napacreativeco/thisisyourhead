@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import JSONData from "../data/data.json"
 import styled from 'styled-components';
 
@@ -14,6 +14,7 @@ const ProjectStyles = styled.section`
     }
     .cell {
         height: 400px;
+        background-color: #000;
     }
 
     
@@ -37,6 +38,16 @@ const ProjectStyles = styled.section`
 
 export default function ProjectsNew() {
 
+  const [shown, setShown] = useState('cover');
+
+  const showContain = (e) => {
+    e.target.style.backgroundSize = "contain";
+  }
+
+  const hideContain = (e) => {
+    e.target.style.backgroundSize = "cover";
+  }
+
     return (
 
       <ProjectStyles>
@@ -53,6 +64,8 @@ export default function ProjectsNew() {
                         backgroundRepeat: 'no-repeat',
                         backgroundPosition: 'center center',
                         backgroundColor: '#eaeaea'}}
+                      onMouseEnter={showContain}
+                      onMouseLeave={hideContain}
                 >&nbsp;
                 </div>
             )

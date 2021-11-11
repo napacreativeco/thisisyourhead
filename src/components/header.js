@@ -12,7 +12,7 @@ const Header = () => (
       </div>
     </div>
 
-    <p style={{ paddingLeft: '10px' }}>Multidisciplinary artist based in Napa, Calfornia</p>
+    <p style={{ paddingLeft: '10px' }}>Trashy artist based in Napa, Calfornia</p>
   </header>
 )
 
